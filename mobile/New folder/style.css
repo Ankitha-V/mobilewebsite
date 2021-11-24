@@ -1,0 +1,148 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: purple;
+}
+.logo{
+    display: flex;
+    height: 3cm;
+    width: 3cm;
+    size-adjust: 10cm;
+}
+.nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    z-index: 5;
+    
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+    display: flex;
+    text-align: right;
+    position: sticky;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+#circle{
+    width: 700px;
+    height: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.feature img{
+    width: 70px;
+
+}
+.feature{
+    position: absolute;
+    display: flex;
+    color: cornsilk;
+}
+.feature div{
+    margin-left: 30px;
+}
+.one{
+    top: 450px;
+    right: -100px;
+}
+.two{
+    top: 100px;
+    left: 250px;
+    transform: rotate(-90deg);
+
+}
+.three{
+    bottom: 450px;
+    left: -100px;
+    transform: rotate(-180deg);
+    
+}
+.four{
+    bottom: 50px;
+    right: 250px;
+    transform: rotate(-270deg);
+    
+}
+.mobile{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 15px 0;
+    color: white;
+}
+#upBtn{
+    width: 15px;
+    cursor: pointer;
+}
+#downBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.overlay{
+   width: auto;
+   height: auto;
+    border-top: 500px solid white;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid white;
+    border-left: 500px solid white;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
